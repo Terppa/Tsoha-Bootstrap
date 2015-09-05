@@ -2,7 +2,7 @@
 
 Yleisiä linkkejä:
 
-* [Elektroninen keittokirja](terosoik.users.cs.helsinki.fi/tsoha)
+* [Elektroninen keittokirja](https://terosoik.users.cs.helsinki.fi/tsoha)
 * [Linkki dokumentaatiooni](https://www.github.com)
 
 ## Työn aihe
