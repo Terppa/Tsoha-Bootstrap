@@ -1,6 +1,6 @@
 Tietokantasovellus harjoitustyö
 
-Johdanto
+###Johdanto
 
 Harjoitustyönä teen elektronisen keittokirjan johon ihmisten on mahdollista luoda käyttäjätunnus. Käyttäjätunnuksen luotuaan he pystyvät kirjoittamaan palveluun omia reseptejään. Palvelua on mahdollista käyttää ilman käyttäjätunnusta mutta tällöin henkilöt pystyvät ainoastaan selailemaan muiden julkaisemia reseptejä.
 
