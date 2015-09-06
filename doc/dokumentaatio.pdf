@@ -1,13 +1,3 @@
-Tietokantasovellus harjoitustyö
-
-###Johdanto
-
-Harjoitustyönä teen elektronisen keittokirjan johon ihmisten on mahdollista luoda käyttäjätunnus. Käyttäjätunnuksen luotuaan he pystyvät kirjoittamaan palveluun omia reseptejään. Palvelua on mahdollista käyttää ilman käyttäjätunnusta mutta tällöin henkilöt pystyvät ainoastaan selailemaan muiden julkaisemia reseptejä.
-
-Rekisteröityneet käyttäjät pystyvät lisäämään omia reseptejä, muokkamaan omia reseptejään, poistamaan niitä sekä kommentoimaan muitten kirjoittamia reseptejä. Mikäli minulle jää ylimääräistä aikaa harjoitustyön kanssa saatan lisätä kalorilaskurin resepteihin sekä mahdollisuuden rekisteröityneille käyttäjille arvostella reseptejä pisteillä yhdestä viiteen sekä samalla periaatteella arvostella muita käyttäjiä.
-
-Mahdollisesti lisään myös laskurin resepteihin josta näkee kuinka monta kertaa kutakin reseptiä on käyty tarkastelemassa.
-
-Työni toteutan laitoksen users -ympäristössä käyttäen ohjelmointikielenä PHP:ta sekä tietokantana PostgreSQL:ä.
+(/home/terosoik/Desktop/Tsoha-Bootstrap/doc/Link to tietokantasovellus.pdf)
 
 
