@@ -2,7 +2,7 @@
 
 Yleisiä linkkejä:
 
-* [Pokemon kouluttajan tietokanta](https://terosoik.users.cs.helsinki.fi/htdocs/tsoha/esittelysivu.html)
+* [Pokemon kouluttajan tietokanta](https://github.com/Terppa/Tsoha-Bootstrap/esittelysivu.html)
 * [Linkki dokumentaatiooni](doc/dokumentaatio.pdf)
 * 
 
