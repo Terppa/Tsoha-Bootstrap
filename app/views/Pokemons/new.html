@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block content %}
+	<h1>Lisää Pokemon</h1>
+
+	<form method="post" action="{{base_path}}/Pokemons">
+		<div class="form-group">
+			<label>Nimi</label>
+			<input type="text" name="name" class="form-control">
+		</div>
+		<div class="form-group">
+			<label>CP</label>
+			<input type="number" name="cp" class="form-control">
+		</div>
+		<div class="form-group">
+			<input type="radio" name="ev" class="form-control" value="T" checked>Kyllä<br>
+			<input type="radio" name="ev" class="form-control" value="F">Ei<br>
+		</div>
+		<div class="form-group">
+			<label>Candy</label>
+			<input type="text" name="candy" class="form-control">
+		</div>
+		<div class="form-group">
+			<label>HitPoints</label>
+			<input type="number" name="hp" class="form-control">
+		</div>
+		<div class="form-group">
+			<label>Paino</label>
+			<input type="number" name="weight" class="form-control">
+		</div>
+		<div class="form-group">
+			<label>Pituus</label>
+			<input type="number" name="height" class="form-control">
+		</div>
+
+		<div class="form-group">
+			<button type="submit" class="btn btn-primary">Lisää</button>
+			<button type="reset" class="btn btn-danger">Tyhjennä</button>
+		</div>
+	</form>
+{% endblock %}

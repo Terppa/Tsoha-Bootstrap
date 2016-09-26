@@ -1,18 +1,30 @@
 <?php
 
   $routes->get('/', function() {
-    HelloWorldController::index();
+    PokemonController::index();
   });
 
   $routes->get('/hiekkalaatikko', function() {
     HelloWorldController::sandbox();
   });
 
+    $routes->get('/Pokemons', function() { 
+    PokemonController::index();
+  });
+
+  $routes->post('/Pokemons', function() { 
+    PokemonController::store();
+  });
+
+  $routes->get('/Pokemons/new', function() { 
+    PokemonController::create();
+  });
+  
   $routes->get('/pokemons', function() {
   	HelloWorldController::pokemon_list();
   });
-  $routes->get('/pokemons/1', function() {
-  	HelloWorldController::pokemon_show();
+  $routes->get('/Pokemons/:id', function($id) {
+  	PokemonController::show($id);
   });
   $routes->get('/login', function() {
   	HelloWorldController::login();

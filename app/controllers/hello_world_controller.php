@@ -9,7 +9,10 @@
 
     public static function sandbox(){
       // Testaa koodiasi täällä
-      View::make('helloworld.html');
+      $pokemon = Pokemons::find(1);
+      $pokemons = Pokemons::all();
+      Kint::dump($pokemon);
+      Kint::dump($pokemons);
     }
 
     public static function pokemon_list() {

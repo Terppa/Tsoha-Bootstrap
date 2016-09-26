@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block content %}
+	<h1><a href="{{base_path}}/Pokemons/{{pokemon.id}}">{{pokemon.name}}</a></h1>
+	<table class="table table-striped table-bordered">
+		<thead>	
+			<th>EV</th>
+			<th>CP</th>
+			<th>HP</th>          			  <th>Weight</th>
+			<th>Height</th>
+			<th>Candy and Stardust to Improve</th>
+			<th>Type of Candy</th>
+			<th>Added</th>
+		</thead>
+		<tbody>	
+			<tr>
+				<td></td>
+				<td>
+					{% if pokemon.evolvable %}
+						<label class="label label-success">Evolvable</label>
+						<td>{{stats.c_to_ev}}</td>
+					{% else %}
+						<label class="label label-danger"></label>
+						<td></td>
+					{% endif %}
+				</td>
+				<td>{{stats.cp}}</td>
+				<td>{{stats.hp}}</td>
+				<td>{{stats.weight}}</td>
+				<td>{{stats.height}}</td>
+				<td>{{stats.c_to_imp}} {{stats.stardust}}</td>
+				<td>{{stats.candy}}</td>
+				<td>{{stats.added}}</td>
+			</tr>
+		</tbody>
+	</table>
+{% endblock %}

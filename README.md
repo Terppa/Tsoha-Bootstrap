@@ -2,9 +2,8 @@
 
 Yleisiä linkkejä:
 
-* [Pokemon kouluttajan tietokanta](http://terosoik.users.cs.helsinki.fi/tsoha/pokemons)
-* [Pokemonin tarkemmat tiedot](http://terosoik.users.cs.helsinki.fi/tsoha/pokemons/1)
-* [Pokemonin muokkaussivu](http://terosoik.users.cs.helsinki.fi/tsoha/pokemons/2)
+* [Pokemon kouluttajan tietokanta](http://terosoik.users.cs.helsinki.fi/tsoha)
+
 * [Kirjautuminen](http://terosoik.users.cs.helsinki.fi/tsoha/login)
 * [Linkki dokumentaatiooni](doc/dokumentaatio.pdf)
 * 
